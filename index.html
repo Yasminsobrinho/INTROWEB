@@ -6,7 +6,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header" id="home">
+    <!--cabeçalho-->
+    <header class="header">
       <h1>Minha Loja &#x2764;</h1>
       <hr />
       <nav class="nav-menu">
@@ -18,7 +19,7 @@
       </nav>
       <hr />
     </header>
-    <main>
+    <main id="home">
       <sectin class="products" id="produtos">
         <h2>Produtos em Destaque</h2>
         <!--lista de categorias-->
@@ -32,33 +33,37 @@
         </aside>
 
         <!--tabela de produtos-->
-        <table border="5">
-          <thead>
-            <tr>
-              <th>Produto</th>
-              <th>Preço</th>
-              <th>Categoria</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Fone</td>
-              <td>250,00</td>
-              <td>eletrônicos</td>
-            </tr>
-            <tr>
-              <td>Mouse</td>
-              <td>180,00</td>
-              <td>TI</td>
-            </tr>
-            <tr>
-              <td>Teclado</td>
-              <td>200,00</td>
-              <td>TI</td>
-            </tr>
-          </tbody>
-        </table>
+        <section class="product-list">
+          <h3>Lista De Produtos</h3>
 
+          <table border="5">
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fone</td>
+                <td>250,00</td>
+                <td>eletrônicos</td>
+              </tr>
+              <tr>
+                <td>Mouse</td>
+                <td>180,00</td>
+                <td>TI</td>
+              </tr>
+              <tr>
+                <td>Teclado</td>
+                <td>200,00</td>
+                <td>TI</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        
         <article>
           <h3>Notebook</h3>
           <p>Detalhes do Notebook</p>
