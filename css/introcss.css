@@ -1,0 +1,47 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;       /* parte obrigatória */
+    font-weight: 300;
+}
+
+body {
+    background-color: #344737;
+}
+
+h1 {
+    color: green;
+    /* margin: 12px; */
+    background-color:yellow;
+    text-align:center;
+    /* padding: 3% */
+}
+
+h2 {
+    color: bisque;
+}
+
+#intro {
+    background-color: rgb(86, 86, 161);
+    color: bisque;
+    /* padding: 12px; */
+    /* margin: 20px;
+    padding-left: 30px; 
+    padding-top: 40px; */
+    /*padding: 2%;
+    width: 200px;
+    height: 200px;*/
+    border: 3px solid white;
+    border-radius: 5%;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    transition: 10s;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
