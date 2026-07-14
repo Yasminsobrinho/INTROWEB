@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
     <!--cabeçalho-->
@@ -22,11 +23,10 @@
     <main id="home">
       <section class="products" id="produtos">
         <h2>Produtos em Destaque</h2>
+        <br /><br />
         <article class="product-card">
-
-         
-
           <h3>Notebook</h3>
+          <br /><br />
           <img src="img/notebook.png" height="200" alt="Notebook" loading="lazy"
           class="product-image">
           <p>Detalhes do Notebook</p>
@@ -37,29 +37,50 @@
           <button>Adicionar ao carrinho</button>
         </article>
         <hr>
+        <article >
+          <br /><br />
+          <h3>Fone Bluetooth</h3>
+          <br /><br />
+          <img src="img/fone.webp" height="200" alt="fone" loading="lazy"
+          class="product-image">
+          <p>Detalhes do Fone</p>
+           <figcaption>Fone</figcaption>
+        </figure>
+          <h3>Fone  Bluetooth</h3>
+          <p class="price">R$ 100,00</p>
+          <button>Adicionar ao carrinho</button>
+        </article>
+        <hr>
         <article>
           <h3>Teclado</h3>
           <img src="img/teclado.jpg" height="200" alt="Teclado" loading="lazy" class="product-image">
           <p>Detalhes do Teclado</p>
         </article>
+        <br /><br />
         <figcaption>Teclado</figcaption>
+        <br /><br />
         </figure>
           <h3>Teclado Colorido</h3>
           <p class="price">R$ 200,90</p>
           <button>Adicionar ao carrinho</button>
           <hr>
+          <br /><br />
         <!--lista de categorias-->
         <aside class="categorias">
           <h3>Categorias</h3>
+          <br /><br />
           <ul>
             <li>eletrônicos</li>
             <li>Roupas</li>
             <li>Acessórios</li>
           </ul>
         </aside>
-
+        <hr>
+        <br /><br />
         <h3>produtos em promoção:</h3>
+        <br /><br />
          <section class="promo-video">
+         
           <iframe 
         width="460" height="215" 
         src="https://www.youtube.com/embed/bWL2KfNLUSg?si=f83c1CJba2-HLoUV" 
@@ -69,11 +90,15 @@
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen>
       </iframe>
-
+     
+      <br /><br />
+       <hr>
+       <br /><br />
         <!--tabela de produtos-->
         <section class="product-list">
           <h3>Lista De Produtos</h3>
-
+          
+          <br /><br />
           <table border="5">
             <thead>
               <tr>
@@ -108,6 +133,7 @@
       <form class="form-contato" method="post" action="servidor.php">
         <fieldset>
           <legend>Login</legend>
+          <br /><br />
           <label for="nome">Nome:</label>
           <br />
           <input
@@ -133,7 +159,7 @@
 
           <br /><br />
           <label for="email">E-mail:</label>
-          <br /><br />
+          <br />
           <input
             type="text"
             name="email"
@@ -148,33 +174,40 @@
             id="senha"
             placeholder="Informe sua Senha"
             minlength="8"
+           
           />
+           <br /><br />
         </fieldset>
 
         <br /><br />
         <fieldset>
           <legend>PF/PJ</legend>
+          <br />
           <input type="radio" name="client-type" id="radio-pf" value="pf" />
           <label for="radio-pf">Pessoa Física</label>
-          <br />
+          <br /><br />
           <input type="radio" name="client-type" id="radio-pj" value="pj" />
           <label for="radio-pj">Pessoa Jurídica</label>
+          <br /><br />
         </fieldset>
 
         <br /><br />
         <fieldset>
           <legend>Interesses</legend>
+          <br />
           <select name="category" id="input-category">
             <option value="">Selecione...</option>
             <option value="eletronicos">Eletrônicos</option>
             <option value="moda">Moda</option>
             <option value="acessorios">Acessórios</option>
           </select>
+          <br /><br />
         </fieldset>
 
         <br /><br />
         <fieldset>
         <legend>checkbox</legend>
+        <br />
         <input
           type="checkbox"
           name="preferences"
@@ -191,6 +224,7 @@
           value="news"
         />
         <label for="check-news">Newsletter</label>
+        <br /><br />
       </fieldset>
 
       <br /><br />
