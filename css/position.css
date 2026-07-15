@@ -1,30 +1,91 @@
 /* Reset */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #geral {
-    width: 900px;
-    margin: 30px auto; 
-    background-color: cadetblue
+  width: 650px;
+  height: 2500px;
+  margin: 30px auto;
+  background-color: cadetblue;
 }
 
-#bloco1, #bloco2 {
-    border: 3px solid black;
-    padding: 20px;
-    margin-bottom:  30px;
-    background-color: white;
+#bloco1,
+#bloco2 {
+  border: 3px solid black;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: white;
 }
 
 img {
-    width: 200px;
-    border: 3px solid rgb(245, 34, 150);
+  width: 200px;
+  border: 3px solid rgb(245, 34, 150);
+}
 
+/* Entendedo POSITION */
+/* bolsa */
+#img1 {
+  position: static; /*ignora parâmetros de movimentação*/
+  top: 100px; /*não funciona*/
+  left: 100px; /*não funciona*/
+}
+
+/*position relative*/
+/* mochila */
+/* a posição do elemento é relativa 'a sua posição original' 
+*/
+#img3 {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+/* position absolute */
+/* elemento pai -> bloco1*/
+#bloco1 {
+  position: relative;
+}
+
+/* elemento filho -> img2 */
+/*absolute - a posição do elemento é relativa ao seu elemento pai mais próximo que tenha position diferente de static*/
+/*OBS: o espaço original ocupado fica livre após a movimentação após a movimentação.*/
+/* bola */
+#img2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* position fixed */
+/* batom */
+#img4{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+/*---------------------------------------------
+               Z-INDEX
+-----------------------------------------------*/
+
+/* vamos testar o Z-INDEX com os blocos 1 e 2*/
+
+#bloco1{
+    position: relative;
+    z-index: 2;
+}
+
+#bloco2{
+    position: relative;
+    top: -120px;
+    left: 120px;
+    z-index: 1;
 }
