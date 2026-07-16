@@ -1,0 +1,78 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  font-family: serif;
+  background-color: #d7a2d5;
+  color: #000000;
+  flex-wrap: wrap; 
+  align-items:center;
+  text-align: center;
+  border-radius: 8px;
+
+ 
+}
+
+.header {
+  background-color: rgb(154, 149, 252);
+  color: white;
+  padding: 20px;
+}
+li{
+  display: inline;
+  gap: 60px;
+  margin-right: 40px;
+
+}
+
+.banner {
+background-color: white;
+padding: 20px;
+margin: 20px;
+border-radius: 8px;
+}
+
+input{
+  background-color:rgb(154, 149, 252);
+  border-radius: 20px;
+}
+
+.informa {
+background-color: #dcb6da;
+border:1px; solid;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.interesse {
+  
+border:1px; solid #ddd;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+}
+
+h2 {
+margin-bottom: 10px;
+}
+/* Rodapé */
+footer {
+text-decoration: underline;
+background-color: rgb(154, 149, 252);
+color: rgb(255, 255, 255);
+padding: 15px;
+margin-top: 20px;
+
+gap: 15px;
+}
