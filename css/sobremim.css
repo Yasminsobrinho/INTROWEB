@@ -6,48 +6,68 @@
 }
 
 body {
-  background: linear-gradient(135deg, #ee98c2, #b183e2);
-  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  font-family: serif;
+  background-color: #bf9cbd;
+  color: #000000;
+  flex-wrap: wrap; 
+  align-items:center;
+  text-align: center;
+  border-radius: 8px;
 }
 
-h1 {
-  font-family: "poppins";
-  font-size: 3rem;
-  font-weight: 700;
-  color: #8b5cf6;
+.header {
+  background-color: rgb(154, 149, 252);
+  color: white;
+  padding: 20px;
+}
+li{
+  display: inline;
+  gap: 60px;
+  margin-right: 40px;
+
+}
+
+.banner {
+background-color: white;
+padding: 20px;
+margin: 20px;
+border-radius: 8px;
+}
+
+input{
+  background-color:rgb(154, 149, 252);
+}
+
+.informa {
+background-color: #dcb6da;
+border:1px; solid;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.interesse {
+  
+border:1px; solid #ddd;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
 }
 
 h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #a855f7;
+margin-bottom: 10px;
 }
-
-i {
-  font-size: 40px;
-  color: black;
-  margin-bottom: 10px;
-}
-
-:root {
-  --rosa: #f9c5d5;
-  --rosa-claro: #fde7ef;
-  --roxo: #b57edc;
-  --roxo-claro: #e9d5ff;
-  --texto: #1702fd;
-}
-
-.botao {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #f665f1;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.botao i {
-  font-size: 16px;
+/* Rodapé */
+footer {
+text-decoration: underline;
+background-color: rgb(154, 149, 252);
+color: rgb(255, 255, 255);
+padding: 15px;
+margin-top: 20px;
 }
